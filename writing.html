@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Writing — Shukri "Shay" Nur</title>
+<meta name="description" content="Short weekly research papers and notes on the social determinants of health by Shukri (Shay) Nur.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75,500;75,800;100,400;100,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#ffffff; --ink:#111417; --muted:#5b6166; --accent:#0e6c63; --hairline:#e4e6e8;
+    --display:'Archivo',sans-serif; --body:'Public Sans',sans-serif; --max:1200px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.65;font-size:1.05rem;}
+  a{color:var(--accent);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}
+  nav{max-width:var(--max);margin:0 auto;padding:1.4rem 1.5rem;display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;}
+  .wordmark{font-family:var(--display);font-stretch:75%;font-weight:800;font-size:1.05rem;color:var(--ink);text-transform:uppercase;}
+  .wordmark:hover{text-decoration:none;color:var(--accent);}
+  nav ul{list-style:none;display:flex;gap:1.6rem;}
+  nav ul a{color:var(--ink);font-weight:500;font-size:.95rem;}
+  nav ul a:hover{color:var(--accent);text-decoration:none;}
+  nav ul a.active{color:var(--accent);}
+  .page{max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 0;}
+  h1{font-family:var(--display);font-stretch:75%;font-weight:800;font-size:clamp(2.6rem,7vw,4.5rem);line-height:1;letter-spacing:-.015em;margin-bottom:1.2rem;}
+  .lede{color:var(--muted);max-width:60ch;margin-bottom:3rem;}
+
+  /* ===== The list of papers. Each week, copy one <li> block and edit it. Newest on top. ===== */
+  .paper-list{list-style:none;}
+  .paper-list li{border-top:1px solid var(--hairline);padding:1.4rem 0;display:grid;grid-template-columns:110px 1fr;gap:1.2rem;align-items:baseline;}
+  .paper-date{font-family:var(--display);font-stretch:75%;font-weight:500;text-transform:uppercase;letter-spacing:.12em;font-size:.75rem;color:var(--muted);}
+  .paper-list h2{font-family:var(--display);font-stretch:75%;font-weight:800;font-size:1.2rem;line-height:1.25;margin-bottom:.2rem;}
+  .paper-list h2 a{color:var(--ink);}
+  .paper-list h2 a:hover{color:var(--accent);text-decoration:none;}
+  .paper-list p{color:var(--muted);font-size:.95rem;max-width:60ch;}
+  @media (max-width:560px){ .paper-list li{grid-template-columns:1fr;gap:.2rem;} }
+
+  footer{max-width:var(--max);margin:4rem auto 0;padding:2rem 1.5rem 3rem;border-top:1px solid var(--hairline);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;color:var(--muted);font-size:.95rem;}
+  footer a{color:var(--muted);}
+</style>
+</head>
+<body>
+
+<nav aria-label="Main">
+  <a class="wordmark" href="index.html">Shukri Nur</a>
+  <ul>
+    <li><a href="about.html">About</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="writing.html" class="active" aria-current="page">Writing</a></li>
+    <li><a href="reading.html">Reading</a></li>
+    <li><a href="mailto:you@example.com">Contact</a></li>
+  </ul>
+</nav>
+
+<main class="page">
+  <h1>Writing</h1>
+  <p class="lede">Short weekly papers and research notes on the social determinants of health — one question, one dataset, or one idea at a time.</p>
+
+  <ul class="paper-list">
+
+    <!-- ============================================================
+         WEEKLY ROUTINE:
+         1. Copy paper-template.html → papers/2026-07-24-your-title.html
+         2. Write your paper in that file (edit title, date, body)
+         3. Copy the <li> block below, paste it at the TOP of this list,
+            and update the date, link, title, and one-line summary.
+         ============================================================ -->
+
+    <li>
+      <span class="paper-date">Jul 17, 2026</span>
+      <div>
+        <h2><a href="papers/2026-07-17-example.html">Example: Why Zip Codes Predict Health</a></h2>
+        <p>A one-page note on what SDOH data can and can't tell us about neighborhood-level chronic disease risk. (This is a sample entry — replace it with your first paper.)</p>
+      </div>
+    </li>
+
+  </ul>
+</main>
+
+<footer>
+  <span>© 2026 Shukri Nur</span>
+  <span><a href="mailto:you@example.com">you@example.com</a> · <a href="https://www.linkedin.com/">LinkedIn</a></span>
+</footer>
+
+</body>
+</html>

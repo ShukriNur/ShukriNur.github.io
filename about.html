@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Shukri "Shay" Nur</title>
+<meta name="description" content="About Shukri (Shay) Nur — health informatics graduate researcher focused on social determinants of health and health equity.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75,500;75,800;100,400;100,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#ffffff; --ink:#111417; --muted:#5b6166; --accent:#0e6c63; --hairline:#e4e6e8;
+    --display:'Archivo',sans-serif; --body:'Public Sans',sans-serif; --max:1200px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.7;font-size:1.05rem;}
+  a{color:var(--accent);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}
+  nav{max-width:var(--max);margin:0 auto;padding:1.4rem 1.5rem;display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;}
+  .wordmark{font-family:var(--display);font-stretch:75%;font-weight:800;font-size:1.05rem;color:var(--ink);text-transform:uppercase;}
+  .wordmark:hover{text-decoration:none;color:var(--accent);}
+  nav ul{list-style:none;display:flex;gap:1.6rem;}
+  nav ul a{color:var(--ink);font-weight:500;font-size:.95rem;}
+  nav ul a:hover{color:var(--accent);text-decoration:none;}
+  nav ul a.active{color:var(--accent);}
+  .page{max-width:680px;margin:0 auto;padding:2.5rem 1.5rem 0;}
+  h1{font-family:var(--display);font-stretch:75%;font-weight:800;font-size:clamp(2.6rem,7vw,4.5rem);line-height:1;letter-spacing:-.015em;margin-bottom:1.8rem;}
+  .page p{margin-bottom:1.3rem;}
+  .page em{font-style:italic;}
+  h2{font-family:var(--display);font-stretch:75%;font-weight:800;font-size:1.25rem;margin:2.4rem 0 .8rem;}
+  .fact-list{list-style:none;border-top:1px solid var(--hairline);}
+  .fact-list li{padding:.7rem 0;border-bottom:1px solid var(--hairline);display:grid;grid-template-columns:170px 1fr;gap:1rem;}
+  .fact-list .k{font-family:var(--display);font-stretch:75%;font-weight:500;text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;color:var(--muted);padding-top:.25rem;}
+  @media (max-width:560px){ .fact-list li{grid-template-columns:1fr;gap:.1rem;} }
+  footer{max-width:var(--max);margin:4rem auto 0;padding:2rem 1.5rem 3rem;border-top:1px solid var(--hairline);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;color:var(--muted);font-size:.95rem;}
+  footer a{color:var(--muted);}
+</style>
+</head>
+<body>
+
+<nav aria-label="Main">
+  <a class="wordmark" href="index.html">Shukri Nur</a>
+  <ul>
+    <li><a href="about.html" class="active" aria-current="page">About</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="writing.html">Writing</a></li>
+    <li><a href="reading.html">Reading</a></li>
+    <li><a href="mailto:you@example.com">Contact</a></li>
+  </ul>
+</nav>
+
+<main class="page">
+  <h1>About</h1>
+
+  <p>I'm Shukri Nur — most people call me Shay. I'm a graduate student in Health Informatics and Health Information Management at Dakota State University, where I'm a Dr. Richard Merkin Scholar, and I'm based in Columbus, Ohio.</p>
+
+  <p>My path into health informatics ran through direct service. I spent years working face-to-face with patients — HIV case management in the Ryan White Program, chronic disease patient navigation at a community health center, community health work, and educational support roles. Working bilingually in English and Somali, I saw again and again how much of a person's health was decided outside the clinic: by housing, food access, language, insurance, and the neighborhoods they came home to.</p>
+
+  <p>That's what pulled me toward the <em>social determinants of health</em> as a research focus. Now I work at the intersection of health data and health equity — assessing behavioral health data landscapes, analyzing how food environments relate to chronic disease, and mapping where chronic conditions and coverage gaps overlap across communities. I want to build health information systems that make inequity visible instead of burying it in averages.</p>
+
+  <p>Longer term, I'm working toward doctoral study in social determinants of health research and a career in global public health. Outside of research, I read widely — public health, socioeconomics, and literature — and you can see what's on my shelf on the <a href="reading.html">Reading</a> page.</p>
+
+  <h2>At a glance</h2>
+  <ul class="fact-list">
+    <li><span class="k">Current</span><span>M.S., Health Informatics &amp; Health Information Management, Dakota State University (expected May 2027)</span></li>
+    <li><span class="k">Education</span><span>B.S., Health and Human Services, Western Governors University</span></li>
+    <li><span class="k">Honors</span><span>Dr. Richard Merkin Scholar · 2026 Halloran Scholar, SISMID at Emory University</span></li>
+    <li><span class="k">Service</span><span>Research, Evaluation &amp; Ethics Committee, Society of Refugee Healthcare Providers</span></li>
+    <li><span class="k">Languages</span><span>English · Somali</span></li>
+    <li><span class="k">Focus areas</span><span>Social determinants of health · health equity · behavioral health data · refugee and immigrant health</span></li>
+  </ul>
+</main>
+
+<footer>
+  <span>© 2026 Shukri Nur</span>
+  <span><a href="mailto:you@example.com">you@example.com</a> · <a href="https://www.linkedin.com/">LinkedIn</a></span>
+</footer>
+
+</body>
+</html>
